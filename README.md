@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Boifuba/bananas/blob/master/packs/img/banana.png" width="100" />
+  <img src="https://github.com/Boifuba/bananas/blob/master/media/img/banana.png" width="100" />
 </p>
 # Yes! We Have Bananas! 
 
