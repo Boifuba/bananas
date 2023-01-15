@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/Boifuba/bananas/blob/master/packs/img/banana.png" width="100" />
+</p>
 # Yes! We Have Bananas! 
 
 This module adds some minor functionality to Gurps Game Aid. These are things I always use in my games and I sincerely hope you enjoy them.
