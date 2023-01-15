@@ -1,5 +1,5 @@
 //type on chat /tem  "Item Name"
-import {con} from './a.js'
+//import {banana} from './banana.js'
 
 const MUM = { module: 'bananas' };
 
@@ -119,7 +119,7 @@ let feverishDodge = `["Feverish Dodge" Dodge +2 Feverish Defense *Cost 1FP]`
 let acrobatic = `["Acrobatic Dodge" /if [S:Acrobatics] [Dodge +2] /else [Dodge -2 Falhou no Acrobatic Dodge]]`
 let retreat = `["Retreating Dodge"  /r [Dodge +3 Retreating] ]`
 ChatMessage.create({ content: `
-<div class="title-box">  Choose your Action    </div>
+<div class="title-box">  Dodge Options   </div>
                         
                         <div class="text-box"> 
                          <br>${dodge} <br>
@@ -136,10 +136,10 @@ ChatMessage.create({ content: `
 
 const COMMANDS = {
 
-	tem: has,
+	has: has,
 	skill: skill,
 	dodge: dodge,
-  teste: con
+  
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )

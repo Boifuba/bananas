@@ -3,6 +3,7 @@
     --b-color: rgba(245, 168, 0, 1);
     --c-color: rgba(254, 218, 0, 1);
     --d-color: rgba(255, 249, 215, 0.8);    
+    --e-color: rgba(0, 0, 64, 1)
   }
 
 
@@ -12,12 +13,14 @@ p {
 }
 
 .title-box {
-    background-color: var(--a-color);
+    background-color: var(--e-color);
     color: var(--c-color);
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
     font-weight: 800;
+    border-radius: 10px 10px;
+    margin-top: 5px;
 }
 
 .text-box {
@@ -28,6 +31,8 @@ p {
     line-height: 20px;
     text-align: center;
     vertical-align: middle;
+    border-radius: 0px 0px 10px 10px;
+
 }
 
 .glinkmodminus {
