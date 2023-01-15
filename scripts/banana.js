@@ -13,7 +13,7 @@ function banana() {
   margin-right: auto;
   margin-top: 18px;">
 
-  <img src="./modules/bananas/packs/img/banana.png" style="
+  <img src="./modules/bananas/media/img/banana.png" style="
   border: none;
   height: 180px;
   width: 180px;
@@ -44,7 +44,7 @@ function banana() {
   ChatMessage.create({
     content: img,
     whisper: ChatMessage.getWhisperRecipients("GM"),
-    sound: "./modules/bananas/packs/sounds/banana.mp3",
+    sound: "./modules/bananas/media/sounds/banana.mp3",
     
   });
 }
