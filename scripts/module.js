@@ -1,5 +1,5 @@
 //type on chat /tem  "Item Name"
-
+import {con} from './a.js'
 
 const MUM = { module: 'bananas' };
 
@@ -153,7 +153,8 @@ const COMMANDS = {
 
 	tem: has,
 	skill: skill,
-	dodge: dodge
+	dodge: dodge,
+  teste: con
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )
