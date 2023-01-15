@@ -23,6 +23,7 @@ Please leave your suggestions, questions, doubts in the Issues or look me up on 
 
 This module changes the GGA ``.gurpslink`` CSS and you may not like it. To resolve this we have a few options:
 
+- /journal is not working well with journal with multipages and pdfs. Someday   i'll fix it.
 - Uninstall this module.
 - Edit the module.css (I can help you with that)
 - Suggest a cool change!
