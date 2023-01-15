@@ -12,7 +12,7 @@ function banana() {
   margin-left: 1%;
   margin-right: auto;
   margin-top: 18px;">
-
+ 
   <img src="./modules/bananas/media/img/banana.png" style="
   border: none;
   height: 180px;
