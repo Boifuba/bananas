@@ -9,7 +9,7 @@ This module adds some minor functionality to Gurps Game Aid. These are things I 
 
 Use this manifest to install if the module is not available on Foundry Modules list. 
 
-https://github.com/Boifuba/bananas/releases/download/0.0.2/module.json
+https://github.com/Boifuba/bananas/releases/download/Release/module.json
 
 ## Start 
 
