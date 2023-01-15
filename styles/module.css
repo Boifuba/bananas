@@ -7,11 +7,6 @@
   }
 
 
-
-p {
-    color: var(--a-color);
-}
-
 .title-box {
     background-color: var(--e-color);
     color: var(--c-color);
@@ -53,4 +48,9 @@ p {
     background-color: var(--d-color)!important;
     padding:2px 5px 2px 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#ban .p {
+    color: aqua;
+
 }

@@ -10,7 +10,7 @@ ChatMessage.create({ content: `
                         
                         <div class="text-box"> 
                          <br>${dodge} <br>
-                        <br>${dodgeNdrop} <br>
+                        <br style="class:ban">${dodgeNdrop} <br>
                         <br> ${feverishDodge} <br>
                         <br> ${acrobatic}<br>
                         <br> ${retreat}<br>

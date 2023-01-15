@@ -1,8 +1,9 @@
 
-import {banana} from './banana.js'
-import {dodge} from './dodge.js'
-import {has} from './has.js'
-import {skill} from './skill.js'
+import { banana } from './banana.js'
+import { dodge } from './dodge.js'
+import { has } from './has.js'
+import { showimage } from './showimage.js';
+import { skill } from './skill.js'
 
 
 const MUM = { module: 'bananas' };
@@ -26,6 +27,7 @@ const COMMANDS = {
   banana: banana,
   has: has,
   skill: skill,
+  showimage: showimage,
   
 };
 
