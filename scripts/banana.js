@@ -35,6 +35,9 @@ function banana() {
   <b>/dodge</b>: <em> This command will print on chat some possibilities for dodge as otF form</em><br><br>
   <b>/banana</b>: <em> Print a banana on chat to help you?</em><br><br>
   <b>/showimage</b>: <em> Browse an image on your files and show to all players!</em><br><br>
+  <b>/game</b>: |Rock|Paper|Scissors| <em> Play a Jokenpô game if campaign is boring.</em><br><br>
+  <b>/journal</b>: |Journal Name| <em> Show a Journal content as dialog. <b>DO NOT OPEN JOURNALS CONTAINING PDFS</b></em><br><br>
+
   
   <div>
 
