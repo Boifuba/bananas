@@ -4,7 +4,7 @@
   "description": "",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "manifestPlusVersion": "0.0.1",
   "compatibility": {
     "minimum": 10,
     "verified": 10,
@@ -14,7 +14,7 @@
     {
       "name": "Boifubá",
       "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "discord": "Boifubá#6083"
     }
   ],
   "relationships": {
@@ -32,9 +32,9 @@
   ],
   "languages": [
     {
-      "lang": "pt_BR",
-      "name": "Portuguese",
-      "path": "languages/pt_BR.json"
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
     }
   ],
   "url": "This is auto replaced",
