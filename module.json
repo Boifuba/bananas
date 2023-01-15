@@ -37,9 +37,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "This is auto replaced",
+  "url": "https://github.com/Boifuba/bananas",
   "manifest": "https://github.com/Boifuba/bananas/blob/master/module.json",
-  "download": "This is auto replaced",
+  "download": "https://github.com/Boifuba/bananas/archive/refs/tags/0.0.1.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
