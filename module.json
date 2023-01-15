@@ -2,7 +2,7 @@
   "id": "bananas",
   "title": "Yes, we have bananas!",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "library": "false",
   "manifestPlusVersion": "0.0.1",
   "compatibility": {
@@ -17,7 +17,6 @@
       "discord": "Boifubá#6083"
     }
   ],
-
   "esmodules": ["scripts/module.js"],
   "scripts": ["scripts/lib/lib.js", "scripts/banana.js", "scripts/dodge.js", "scripts/has.js", "scripts/skill.js"],
   "styles": ["styles/module.css"],
