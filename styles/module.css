@@ -1,0 +1,51 @@
+:root {
+    --a-color: rgba(122, 46, 0, 1);
+    --b-color: rgba(245, 168, 0, 1);
+    --c-color: rgba(254, 218, 0, 1);
+    --d-color: rgba(255, 249, 215, 0.8);    
+  }
+
+
+
+p {
+    color: var(--a-color);
+}
+
+.title-box {
+    background-color: var(--a-color);
+    color: var(--c-color);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+.text-box {
+    background-color: var(--d-color);
+    color: var(var(--a-color));
+    padding: 5px;
+    margin-top: -4px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.glinkmodminus {
+    color: black;
+    background-color: rgb(255, 175, 175) !important;
+    padding: 2px 5px 2px 4px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.glinkmodplus {
+    color: black;
+    background-color: #CCFFCC !important;
+    padding:2px 5px 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.gurpslink {
+    color: black;
+    background-color: var(--d-color)!important;
+    padding:2px 5px 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

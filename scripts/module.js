@@ -119,31 +119,16 @@ let feverishDodge = `["Feverish Dodge" Dodge +2 Feverish Defense *Cost 1FP]`
 let acrobatic = `["Acrobatic Dodge" /if [S:Acrobatics] [Dodge +2] /else [Dodge -2 Falhou no Acrobatic Dodge]]`
 let retreat = `["Retreating Dodge"  /r [Dodge +3 Retreating] ]`
 ChatMessage.create({ content: `
-<p style="height: 30px; background-color: #b50427;
-                        color: white;
-                        text-align: center;
-                        vertical-align: middle;
-                        line-height: 30px;">
-
-                         SE DEFENDA</p>
+<div class="title-box">  Choose your Action    </div>
                         
-                        <p style="
-                        height: auto;
-                        text-align: center;
-                        background-color: #efe7df;
-                        margin-top: -4px;
-                        padding: 10px;
-                        line-height: 20px;"
-                        text-align: left;
-                        vertical-align: middle;
-                        "> 
+                        <div class="text-box"> 
                          <br>${dodge} <br>
                         <br>${dodgeNdrop} <br>
                         <br> ${feverishDodge} <br>
                         <br> ${acrobatic}<br>
                         <br> ${retreat}<br>
                         <br>
-                         </p>
+                         </div>
     `})
 }
 
