@@ -6,6 +6,10 @@
 
 This module adds some minor functionality to Gurps Game Aid. These are things I always use in my games and I sincerely hope you enjoy them.
 
+## What it does? 
+
+Follow this link to [Wiki](https://github.com/Boifuba/bananas/wiki) for more informations.
+
 ##  Installation
 
 Use this manifest to install if the module is not available on Foundry Modules list. 
