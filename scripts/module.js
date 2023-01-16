@@ -5,6 +5,8 @@ import { has } from './has.js'
 import { showimage } from './showimage.js';
 import { skill } from './skill.js'
 import { journal } from './journal.js'
+import { odds } from './odds.js'
+
 
 
 const MUM = { module: 'bananas' };
@@ -71,7 +73,8 @@ const COMMANDS = {
   skill: skill,
   showimage: showimage,
   game: game,
-  journal: journal
+  journal: journal,
+  odds: odds
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )

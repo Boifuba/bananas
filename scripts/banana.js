@@ -37,6 +37,7 @@ function banana() {
   <b>/showimage</b>: <em> Browse an image on your files and show to all players!</em><br><br>
   <b>/game</b>: |Rock|Paper|Scissors| <em> Play a Jokenpô game if campaign is boring.</em><br><br>
   <b>/journal</b>: |Journal Name| <em> Show a Journal content as dialog. <b>DO NOT OPEN JOURNALS CONTAINING PDFS</b></em><br><br>
+  <b>/odds</b>: |number between 0-100| <em> Enter a chance of successfully doing or finding something. </b></em><br><br>
 
   
   <div>
