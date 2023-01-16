@@ -2,9 +2,9 @@
   "id": "bananas",
   "title": "Yes, we have bananas!",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.0.5g",
   "library": "false",
-  "manifestPlusVersion": "0.0.1",
+  "manifestPlusVersion": "0.1.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291",
