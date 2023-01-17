@@ -29,20 +29,6 @@ You can type `/bananas` on chat so show your options. And these commands are:
 
 
 
-/has: |Item Name| Shows players who have this item in their inventory and print them to chat.
-
-/skill: |Skill Name| Shows players who have this skills in their character sheet and print them to chat
-
-/dodge: This command will print on chat some possibilities for dodge as otF form.
-
-/banana: Print a banana on chat to help you? /showimage: Browse an image on your files and show to all players!
-
-/game: |Rock|Paper|Scissors| Play a Jokenpô game if campaign is boring.
-
-/journal: |Journal Name| Show a Journal content as dialog. DO NOT OPEN JOURNALS CONTAINING PDFS
-
-/odds: |number between 0-100| Enter a chance of successfully doing or finding something.
-
 
 Follow this link to [Wiki](https://github.com/Boifuba/bananas/wiki) for more informations.
 
