@@ -1,4 +1,4 @@
-export function has(args) {
+export function has(args){
   let actors = canvas.tokens.controlled.map((i) => i.actor);
   let array = [];
   let qtd = [];
