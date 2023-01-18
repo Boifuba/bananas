@@ -36,7 +36,8 @@ Follow this link to [Wiki](https://github.com/Boifuba/bananas/wiki) for more inf
 
 Use this manifest to install if the module is not available on Foundry Modules list. 
 [
-https://github.com/Boifuba/bananas/releases/download/v0.1.0/module.json
+https://github.com/Boifuba/bananas/releases/download/0.1.1/module.json
+
 ## Start 
 
 To find out what features the module has, type **``/banana``**  in the chat. Some commands require you to have characters selected. It's very simple!
