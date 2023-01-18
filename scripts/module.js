@@ -10,6 +10,7 @@ import { fatigue } from './fatigue.js'
 
 
 
+
 const MUM = { module: 'bananas' };
 
 const gmGuard = (command) => {
@@ -76,7 +77,7 @@ const COMMANDS = {
   game: game,
   journal: journal,
   odds: odds,
-  fatigue:fatigue
+  fatigue:fatigue,
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )
@@ -86,9 +87,12 @@ const COMMANDS = {
  */
 function bananas(log, data, chatData) {
 	if (data[0] !== '/') return;
+    //const re = /^\/(?<exec>\w+)\b\s*(?<args>\w+)\s*(?<arg2>\w+)?$/.exec(data);
 
 	const re = /^\/(?<exec>\w+)\b\s*(?<args>.*)?$/.exec(data);
-	// console.log(data, re);
+	
+    
+     console.log(data, re);
 	if (!re) return;
 
 	const command = re.groups?.exec,
