@@ -4,7 +4,7 @@
   "description": "",
   "version": "0.0.5g",
   "library": "false",
-  "manifestPlusVersion": "0.1.0",
+  "manifestPlusVersion": "0.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291",

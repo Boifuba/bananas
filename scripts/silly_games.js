@@ -1,25 +1,58 @@
-const crypto = require('crypto');
+//guess a number
+let answer = Math.floor(Math.random() * 10) + 1;
+let guess;
 
-function encrypt_aes(plaintext, key) {
-    const cipher = crypto.createCipheriv('aes-128-gcm', key, new Uint8Array(12));
-    let ciphertext = cipher.update(plaintext, 'utf8', 'hex');
-    ciphertext += cipher.final('hex');
-    const authTag = cipher.getAuthTag();
-    return {ciphertext, authTag};
+while (guess !== answer) {
+  guess = prompt("Guess a number between 1 and 10:");
+
+  if (guess === null) {
+    console.log("Goodbye!");
+    break;
+  } else if (guess == answer) {
+    console.log("Correct! The answer was " + answer);
+  } else {
+    console.log("Incorrect. Please try again.");
+  }
+}
+//guess a name 
+const words = ["javascript", "programming", "computer", "science", "algorithm"];
+let answer = words[Math.floor(Math.random() * words.length)];
+let guess;
+let attempts = 0;
+
+while (guess !== answer) {
+  guess = prompt("Guess the word:");
+  attempts++;
+
+  if (guess === null) {
+    console.log("Goodbye!");
+    break;
+  } else if (guess === answer) {
+    console.log("Correct! The answer was " + answer + " and it took you " + attempts + " attempt(s) to guess it");
+  } else {
+    console.log("Incorrect. Please try again.");
+  }
+}
+//guess a number between 
+let max = 100;
+let min = 1;
+let answer = Math.floor(Math.random() * (max - min + 1)) + min;
+let guess;
+let attempts = 0;
+
+while (guess !== answer) {
+  guess = parseInt(prompt("Guess a number between " + min + " and " + max));
+  attempts++;
+
+  if (guess === null) {
+    console.log("Goodbye!");
+    break;
+  } else if (guess === answer) {
+    console.log("Correct! The answer was " + answer + " and it took you " + attempts + " attempt(s) to guess it");
+  } else if (guess > answer) {
+    console.log("Too high. Please try again.");
+  } else if (guess < answer) {
+    console.log("Too low. Please try again.");
+  }
 }
 
-function decrypt_aes(ciphertext, authTag, key) {
-    const decipher = crypto.createDecipheriv('aes-128-gcm', key, new Uint8Array(12));
-    decipher.setAuthTag(authTag);
-    let plaintext = decipher.update(ciphertext, 'hex', 'utf8');
-    plaintext += decipher.final('utf8');
-    return plaintext;
-}
-
-const key = crypto.randomBytes(16);
-const plaintext = "hello world";
-const {ciphertext, authTag} = encrypt_aes(plaintext, key);
-console.log(ciphertext);
-
-const decryptedText = decrypt_aes(ciphertext, authTag, key);
-console.log(decryptedText);
