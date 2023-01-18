@@ -6,6 +6,7 @@ import { showimage } from './showimage.js';
 import { skill } from './skill.js'
 import { journal } from './journal.js'
 import { odds } from './odds.js'
+import { fatigue } from './fatigue.js'
 
 
 
@@ -74,7 +75,8 @@ const COMMANDS = {
   showimage: showimage,
   game: game,
   journal: journal,
-  odds: odds
+  odds: odds,
+  fatigue:fatigue
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )
