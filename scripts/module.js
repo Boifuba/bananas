@@ -7,7 +7,7 @@ import { skill } from './skill.js'
 import { journal } from './journal.js'
 import { odds } from './odds.js'
 import { fatigue } from './fatigue.js'
-
+import { lights  } from './lights.js'
 
 
 
@@ -78,6 +78,7 @@ const COMMANDS = {
   journal: journal,
   odds: odds,
   fatigue:fatigue,
+  lights: lights
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )
