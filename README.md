@@ -22,7 +22,7 @@ You can type `/bananas` on chat so show your options. And these commands are:
 | `/game`       | *Rock, Paper,Scissors* | Allows you to play the game of "Rock, Paper, Scissors" in the chat.                                | */game Rock, /game Scissors* |
 | `/journal`    | *Journal Name*         | Displays the contents of the specified journal as a dialog. Do not open journals that contain PDFs | */journal Journal Name*      |
 | `/odds`       | *number between 0-100* | Enter a chance of successfully doing or finding something.                                         | /odds 50, /odds 75           |
-
+| `/lights` | *on or off* | Toggle all lights in the scene on or off | /lights off. /lights on
 <br>
 <br>
 
