@@ -8,9 +8,8 @@
 
 
 
-export async function sight(){
+export async function sight() {
     const tokens = canvas.tokens.controlled;
-
     const updates = tokens.map(t => ({_id: t.id, "sightAngle": t.document.sight.angle === 360 ? 300 : 360}));
     return await canvas.scene.updateEmbeddedDocuments('Token', updates)
   }

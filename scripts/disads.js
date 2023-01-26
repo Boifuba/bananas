@@ -1,4 +1,4 @@
-export function ads(args) {
+export function disads() {
     const folderName = "PC";
 const getFolder = game.folders.getName(folderName).content;
 let nomes = [];

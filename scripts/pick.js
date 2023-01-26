@@ -1,4 +1,4 @@
-export function random(args) {
+export function pick() {
 const tokens = canvas.tokens.controlled;
 const rand = Math.floor(Math.random() * tokens.length);
 const name = tokens[rand].document.name;

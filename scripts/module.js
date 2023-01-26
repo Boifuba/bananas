@@ -9,7 +9,7 @@ import { odds } from './odds.js'
 import { fatigue } from './fatigue.js'
 import { lights  } from './lights.js'
 import { setsize } from './setsize.js';
-import { disads } from './ads.js';
+import { disads } from './disads.js';
 import { pick } from './pick.js';
 import { sight } from './sight.js';
 
@@ -84,10 +84,9 @@ const COMMANDS = {
   fatigue:fatigue,
   lights: lights,
   setsize: setsize,
-  disads:disads,
-  pick:pick,
-  sight:sight
-
+  disads: disads,
+  pick: pick,
+  sight: sight
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )
