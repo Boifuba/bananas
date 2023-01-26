@@ -8,6 +8,8 @@ import { journal } from './journal.js'
 import { odds } from './odds.js'
 import { fatigue } from './fatigue.js'
 import { lights  } from './lights.js'
+import { setsize } from './setsize.js';
+import { ads } from './ads.js';
 
 
 
@@ -78,7 +80,9 @@ const COMMANDS = {
   journal: journal,
   odds: odds,
   fatigue:fatigue,
-  lights: lights
+  lights: lights,
+  setsize: setsize,
+  ads:ads
 };
 
 // HOOK IT IN (I DON'T KNOW WHERE! )

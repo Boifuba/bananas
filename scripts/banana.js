@@ -39,6 +39,8 @@ function banana() {
   <b>/journal</b>: |Journal Name| <em> Show a Journal content as dialog. <b>DO NOT OPEN JOURNALS CONTAINING PDFS</b></em><br><br>
   <b>/odds</b>: |number between 0-100| <em> Enter a chance of successfully doing or finding something. </b></em><br><br>
   <b>/lights</b>: |on| |off| <em> Toggle all lights in the scene on or off</b></em><br><br>
+  <b>/adds</b>:  <em>Show a dialog with all disads and quirks from all player inside a folder named as PC</b></em><br><br>
+  <b>/setsize</b>: |size| <em>Change the size of the selected tokens</b></em><br><br>
 
   
   <div>
