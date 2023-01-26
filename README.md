@@ -21,8 +21,13 @@ You can type `/bananas` on chat so show your options. And these commands are:
 | `/dodge`      | *n/a*                  | Prints possible options for dodging as an OtF form in the chat.                                    | */dodge*                     |
 | `/game`       | *Rock, Paper,Scissors* | Allows you to play the game of "Rock, Paper, Scissors" in the chat.                                | */game Rock, /game Scissors* |
 | `/journal`    | *Journal Name*         | Displays the contents of the specified journal as a dialog. Do not open journals that contain PDFs | */journal Journal Name*      |
-| `/odds`       | *number between 0-100* | Enter a chance of successfully doing or finding something.                                         | /odds 50, /odds 75           |
-| `/lights` | *on or off* | Toggle all lights in the scene on or off | /lights off, /lights on
+| `/odds`       | *number between 0-100* | Enter a chance of successfully doing or finding something.                                         | */odds 50, /odds 75*         |
+| `/lights`     | *on or off*            | Toggle all lights in the scene on or off                                                           | */lights off, /lights on *   |
+| `/pick`       | *n/a*                  | Pick a random token between selected tokens and show it in Chat                                    | */pick*                      |
+| `/disads`     | *n/a*                  | Show a dialog with all disads and quirks from all player inside a folder named as PC               | */disads*                    |
+| `/setsize`    | *size*                 | Change selected tokens to the choosen size                                                         | */setsize 1.8*               |
+| `/sight  `    | *n/a*                 | Restrict token vision on back                                                      | */sight*               |
+
 <br>
 <br>
 
